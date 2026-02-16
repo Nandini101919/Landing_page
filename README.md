@@ -24,8 +24,13 @@ It showcases cakes with a hero section, product cards, and order buttons. This p
 ---
 
 ## 📂 Project Structure
-cake-shop/ │ ├── index.html       # Main HTML file ├── style.css        # CSS styles └── images/          # Folder for cake images
----
+cake-shop/
+│
+├── index.html       # Main HTML file (homepage)
+├── style.css        # CSS styles for the website
+└── images/          # Folder to store all images used
+    ├── cake1.jpg    # Example cake image
+    └── cake2.jpg    # Example cake image
 
 ## 💡 Future Improvements
 - Add **contact form** for orders  

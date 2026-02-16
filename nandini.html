@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cake Shop</title>
+<style>
+   body {
+font-family: 'Segoe UI', sans-serif; 
+margin:0;
+ background:skyblue;
+}
+  header {
+background:pink; 
+color:black; 
+text-align:center; 
+padding:20px;
+}
+  .hero {
+background:url('https://images.unsplash.com/photo-1599785209707-91b07a86ff1b') no-repeat center/cover; height:300px; display:flex; align-items:center; justify-content:center; color:white; font-size:2em;
+}
+  .products {
+display:flex;
+ justify-content:center;
+ gap:20px; 
+flex-wrap:wrap; 
+padding:30px;
+}
+  .cake {
+background:pink;
+ border-radius:10px; 
+padding:15px; 
+text-align:center; 
+width:200px; 
+box-shadow:0 4px 8px rgba(0,0,0,0.1);
+}
+  .cake img {
+width:100%;
+ border-radius:10px;
+}
+  button {
+background:#ff6f61; 
+border:none;
+ color:white; 
+padding:10px 15px;
+ margin-top:10px;
+ border-radius:5px; 
+cursor:pointer;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Sweet Treats Cake Shop</h1>
+</header>
+
+<div class="hero">Delicious Cakes Delivered!</div>
+
+<section class="products">
+  <div class="cake">
+    <img src="https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_1000/83221_yummylicious-chocolate-cake.jpeg">
+    <h3>Chocolate Cake</h3>
+    <button>Order Now</button>
+  </div>
+  <div class="cake">
+    <img src="https://luvflowercake.com/wp-content/uploads/2021/10/special-vanilla-cake-half-kg_1.jpg" alt="Cake 2">
+    <h3>Vanilla Cake</h3>
+    <button>Order Now</button>
+  </div>
+</section>
+</body>
+</html>

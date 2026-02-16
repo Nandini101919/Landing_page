@@ -24,7 +24,7 @@ It showcases cakes with a hero section, product cards, and order buttons. This p
 ---
 
 ## 📂 Project Structure
-cake-shop/
+cake-shop
 │
 ├── index.html       # Main HTML file (homepage)
 ├── style.css        # CSS styles for the website
